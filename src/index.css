@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#header {
+  background-color: #0062a1 !important;
+  padding: 10px;
+  color: #fff;
+  font: bold 16px/1.5 Helvetica, Arial, sans-serif;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+body {
+  background-color: #eee;
+}
+
+#contenedor {
+  width: 500px;
+  height: 100vh;
+  margin: auto;
+  background-color: white;
+}
+
+button.ui.primary.button {
+  background-color: #0062a1 !important;
+  border: 1px solid #0062a1 !important;
+  color: #fff !important;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+  color: #333;
+  text-decoration: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* .tarjeta:hover {
+  background-color: #0062a1 !important;
+  color: #fff !important;
+  animation-name: fadeIn;
+  animation-duration: 0.3s;
+} */
+
+.tarjeta.dato {
+  color: gray;
+}
+
+.tarjeta.dato:hover {
+  color: #fff;
+}
+
+.tarjeta :hover {
+  color: #fff !important;
+}
+
+button.ui.secondary.button.deleteButtonRedOnHover:hover {
+  background-color: #DC143C;
+  color: white;
+}
+
+button.ui.secondary.button {
+  background-color: #fff;
+  color: #0062a1;
+  border: 1px solid #0062a1;
+}
